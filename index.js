@@ -8,7 +8,7 @@ app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 
 app.get('/', function(req, res) {
-  res.send('hello world');
+  res.render('/public/index.html');
 });
 
 app.listen(port, function() {
