@@ -1,0 +1,64 @@
+* {
+  font-family: 'Arsenal', sans-serif;
+  text-align: center;
+  background-color: #BEE3DB;
+}
+
+.project {
+  display: inline-block;
+  width: 25%;
+  padding: 15px;
+}
+
+.logo {
+  max-height: 250px;
+  max-width: 350px;
+  align: center;
+}
+
+hr {
+  clear: left;
+  color: #283D3B;
+  size: 6px;
+}
+
+a:link, a:visited {
+  padding: 10px;
+  color: #197278;
+}
+
+.photo {
+  width: 150px;
+  float: left;
+  display: inline-block;
+  padding-left: 250px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+}
+
+.info {
+  text-align: left;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+.header {
+  padding-top: 25px;
+  line-height: 0.3;
+}
+
+.links {
+  display: inline-block;
+  float: right;
+  padding-right: 250px;
+}
