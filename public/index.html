@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
@@ -9,59 +10,65 @@
     <script src="script.js"></script>
   </head>
   <body>
-    <div class="header">
-      <img class="photo" src="IMG_0126.JPG" />
-      <h1 class="info">Grace Halbert</h1>
-      <h3 class="info">Software Engineer</h3>
-      <h4 class="info">New Orleans, LA</h4>
-      <h5 class="info">Some small paragraph of information about me.</h5>
-      <div class="links">
-        <a href="medium.com/@gracehalbert">Contact</a>
-        <a href="github.com/gracehalbert" target="_blank">GitHub</a>
-        <a href="linkedin.com/in/gracehalbert" target="_blank">LinkedIn</a>
-        <a href="medium.com/@gracehalbert" target="_blank">Blog</a>
+    <div class="container">
+      <div class="header">
+        <img class="photo" src="IMG_0126.JPG" />
+        <h1 class="info">Grace Halbert</h1>
+        <h3 class="info">Software Engineer</h3>
+        <h5 class="info">New Orleanian. Problem Solver. Team Player.<br />
+        Pet Lover. Southern Cooking Specialist.</h5>
+        <h4 class="info">504-913-9947 | <a href="mailto:gracehalbert@gmail.com" target="_top">gracehalbert@gmail.com</a></h4>
+        <div class="links">
+          <a href="https://github.com/gracehalbert" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/gracehalbert/" target="_blank">LinkedIn</a>
+          <a href="https://medium.com/@gracehalbert" target="_blank">Blog</a>
+        </div>
       </div>
-    </div>
 
-    <hr />
-    <div class="allprojects" align="center">
-      <div class="project">
-        <img class="logo" src="honeypot_logo.png"/>
-        <p>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-          officia deserunt mollit anim id est laborum."
-        </p>
-        <a href="https://bearquarium.com/ionic-lab" target="_blank">Visit the App</a>
-        <a href="https://github.com/TheBearQuarium/honeypot1.1" target="_blank">See the Code</a>
+      <hr />
+      <div class="allprojects" align="center">
+        <div class="project">
+          <img class="logo" src="honeypot_logo.png"/>
+          <p>
+            Honeypot is a native, cross-platform app that helps users manage personal finance in
+            an easy and fun way by linking game-play to monetary savings. Through in-game microtransactions,
+            users deposit money into their savings account by purchasing supplies for their virtual pet.
+            <br /><br />
+            The user interface is a pet-care game that triggers ACH transfers between a user’s checking and
+            savings accounts. The happier your pet, the bigger your savings.
+          </p>
+          <a href="http://bearquarium.com/ionic-lab" target="_blank">Visit the App</a>
+          <a href="https://github.com/TheBearQuarium/honeypot1.1" target="_blank">See the Code</a>
+        </div>
+        <div class="project">
+          <img class="logo" src="jamsesh.png"/>
+          <p>
+            JamSesh is a social network for musicians to find jam sessions. Built with React, the application
+            allows users to create groups and post for new band mates. Users can filter band listings by
+            location, instrument seeking, or genre.
+            <br /><br />
+            The application facilitates discussion through both general and band-specific chat rooms, powered
+            with Firebase database for quick and reliable response time, or users can connect through individual
+            messaging.
+          </p>
+          <!-- <a href="default.asp" target="_blank">Visit the App</a> -->
+          <a href="https://github.com/logic-aquarium/JamSesh" target="_blank">See the Code</a>
+        </div>
+        <div class="project">
+          <img class="logo" src="litter.png"/>
+          <p>
+            Litter is a native social media application built with React Native where anonymous users can drop
+            pieces of writing, art or photos to a pin on their geo-location. Other users that come to the same
+            location and pick up that piece of media and store it in their collection.
+            <br /><br />
+            The user interface is a localized map which shows all the litter dropped in your area that are
+            available to be collected. Users can start collecting and show off their litter to their friends.
+          </p>
+          <!-- <a href="default.asp" target="_blank">Visit the App</a> -->
+          <a href="https://github.com/logic-aquarium/litter" target="_blank">See the Code</a>
+        </div>
       </div>
-      <div class="project">
-        <img class="logo" src="jamsesh.png"/>
-        <p>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-          officia deserunt mollit anim id est laborum."
-        </p>
-        <a href="default.asp" target="_blank">Visit the App</a>
-        <a href="https://github.com/logic-aquarium/JamSesh" target="_blank">See the Code</a>
-      </div>
-      <div class="project">
-        <img class="logo" src="litter.png"/>
-        <p>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-          officia deserunt mollit anim id est laborum."
-        </p>
-        <a href="default.asp" target="_blank">Visit the App</a>
-        <a href="https://github.com/logic-aquarium/litter" target="_blank">See the Code</a>
-      </div>
+      <hr />
     </div>
-    <hr />
   </body>
 </html>

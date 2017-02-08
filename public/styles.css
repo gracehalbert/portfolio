@@ -1,5 +1,5 @@
 * {
-  font-family: 'Arsenal', sans-serif;
+  font-family: 'Dosis', sans-serif;
   text-align: center;
   background-color: #BEE3DB;
 }
@@ -50,15 +50,21 @@ h3 {
 
 h5 {
   font-size: 20px;
+  line-height: 1;
 }
 
 .header {
   padding-top: 25px;
-  line-height: 0.3;
+  line-height: 0.1;
 }
 
 .links {
   display: inline-block;
   float: right;
   padding-right: 250px;
+}
+
+p {
+  width: 94%;
+  text-align: justify;
 }
